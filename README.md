@@ -1,2 +1,4 @@
-# goit-markup-hw-01
-My first project is my first homework
+cursor: pointer;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
