@@ -137,7 +137,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/fon-main-one.jpg);
+    url(../images/fon-main-one.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -286,6 +286,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 .team-icon-link {
   display: flex;
@@ -339,12 +340,13 @@ h2 {
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list-item:hover .portfolio-overlay {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0);
 }
 
